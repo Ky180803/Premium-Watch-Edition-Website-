@@ -1,0 +1,17 @@
+
+
+from django.db import migrations
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('authentication', '0007_alter_watch_quantity_available'),
+    ]
+
+    operations = [
+        migrations.RemoveField(
+            model_name='watch',
+            name='quantity_available',
+        ),
+    ]
